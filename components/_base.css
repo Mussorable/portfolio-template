@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+html::before {
+  z-index: -1;
+  width: 100dvw;
+  height: 100dvh;
+  background-color: var(--secondary);
+  content: "";
+}
+
+html {
+  background-color: var(--primary);
+}
+
+html.light-theme {
+  background-color: var(--light);
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --secondary: #f7de3a;
+  --down-arrow: black;
+  --primary: #2e4053;
+  --light: #f4f6f7;
+  --tag: var(--primary);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
