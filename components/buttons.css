@@ -5,6 +5,11 @@
   background-image: none;
   display: inline-block;
   cursor: pointer;
+  color: var(--text-color);
+}
+
+li.button--raise > a.button {
+  color: black;
 }
 
 .button:hover {
@@ -20,6 +25,7 @@
   bottom: 25px;
   left: calc(50vw - 48px / 2);
   animation: bounce 1.6s infinite cubic-bezier(0.37, 0, 0.63, 1);
+  transition: 0.5s;
 }
 
 #scroll-down:hover {
