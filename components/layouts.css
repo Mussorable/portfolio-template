@@ -35,7 +35,8 @@
 }
 
 .skill-item {
-  border: 1px solid var(--primary);
+  border: 1px solid var(--tag);
+  color: var(--text-color);
   outline: 1px solid transparent;
   display: inline-block;
   padding: 10px 20px;

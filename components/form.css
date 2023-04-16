@@ -11,7 +11,8 @@ form {
 
 .inputs {
   all: inherit;
-  border-bottom: 1px solid var(--primary);
+  border-bottom: 1px solid var(--tag);
+  color: var(--text-color);
   padding: 10px 8px;
   margin-bottom: 15px;
   font-size: 1.4rem;

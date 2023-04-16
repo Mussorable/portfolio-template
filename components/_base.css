@@ -16,6 +16,10 @@ html {
 
 html.light-theme {
   background-color: var(--light);
+  --text-color: var(--black);
+  --tag: var(--black);
+  --icon-color: var(--black);
+  --down-arrow: var(--black);
 }
 
 body {
@@ -25,6 +29,10 @@ body {
 
 h3 {
   margin: 0;
+}
+
+::selection {
+  background-color: var(--secondary);
 }
 
 .sr-only {
@@ -40,10 +48,13 @@ h3 {
 
 :root {
   --secondary: #f1c40f;
-  --down-arrow: black;
-  --primary: #2e4053;
+  --down-arrow: var(--light);
+  --primary: #130c24;
   --light: #f4f6f7;
-  --tag: var(--primary);
+  --tag: var(--light);
+  --black: #232020;
+  --text-color: var(--light);
+  --icon-color: var(--light);
 }
 
 address {
