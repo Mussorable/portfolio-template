@@ -19,3 +19,9 @@ header {
   padding: 12px;
   letter-spacing: 1.1px;
 }
+
+@media (max-width: 37.5rem) {
+  .navigation-item:not(:last-child) {
+    display: none;
+  }
+}
