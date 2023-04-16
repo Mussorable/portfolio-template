@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" class="light-theme">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="color-scheme" content="dark light" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="John Doe | Sales Manager" />
+    <meta
+      name="description"
+      content="John is a sales manager based in Warsaw."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>John Doe | Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container flex header-position">
+          <a href="/"
+            ><img
+              src="resources/random-logo.svg"
+              height="60"
+              alt="Portfolio logo"
+          /></a>
+          <ul class="navigation-list">
+            <li class="text--lg uppercase navigation-item bold">
+              <a href="#about-me" class="button">About me</a>
+            </li>
+            <li class="text--lg uppercase navigation-item bold">
+              <a href="#" class="button">Portfolio</a>
+            </li>
+            <li class="text--lg uppercase navigation-item bold">
+              <a href="#skills" class="button">Skills</a>
+            </li>
+            <li class="text--lg uppercase navigation-item bold button--raise">
+              <a href="#" class="button">Hire me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        id="intro"
+        class="layout-section"
+        aria-describedby="intro-h1 intro-h2"
+      >
+        <div class="container">
+          <h1 id="intro-h1" class="heading--lg">John Doe</h1>
+          <h2 id="intro-h2" class="heading--lg">Sales Manager</h2>
+          <p class="text--mm">John is a sales manager based in Warsaw.</p>
+          <p class="text--mm">
+            John brings your business ideas in life with modern business
+            strategies.
+          </p>
+        </div>
+        <button class="button" aria-label="scroll down" id="scroll-down">
+          <svg
+            id="down-arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="48px"
+            fill="none"
+            stroke="var(--down-arrow)"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-chevrons-down"
+          >
+            <polyline points="7 13 12 18 17 13"></polyline>
+            <polyline points="7 6 12 11 17 6"></polyline>
+          </svg>
+        </button>
+      </section>
+      <section
+        id="about-me"
+        class="layout-section"
+        aria-labelledby="about-me-h2"
+      >
+        <div class="container">
+          <h2 class="title--sm uppercase">About me</h2>
+          <div class="grid-half">
+            <p class="text">
+              Years of experience have gone John a unique angle to improve his
+              own strategy to sale any business projects. He studied business
+              management at the private university in Wroclaw.
+            </p>
+            <div class="vertical-flex">
+              <p class="text">
+                John helps you bring your vision in management and improve some
+                rules to organize it.
+              </p>
+              <p class="text">
+                Curious to know more? Check-out my
+                <a href="#" class="button link">portfolio</a> or try to
+                <a href="#" class="button link">hire-me</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="layout-section" aria-labelledby="skills-h2">
+        <div class="container">
+          <h2 class="title--sm uppercase" id="skills-h2">Skills</h2>
+          <ul class="skills-list">
+            <li class="skill-item">BS/MS degree</li>
+            <li class="skill-item">Successful previous experience</li>
+            <li class="skill-item">Demonstrated ability to communicate</li>
+            <li class="skill-item">Committed to continuous education</li>
+            <li class="skill-item">Strong business sense</li>
+            <li class="skill-item">Industry expertise</li>
+            <li class="skill-item">Excellent mentoring</li>
+            <li class="skill-item">Build and promote strong relationships</li>
+          </ul>
+        </div>
+      </section>
+      <section id="hire-me" class="layout-section" aria-labelledby="hireme-h2">
+        <div class="container">
+          <h2 id="hireme-h2" class="title--sm uppercase">Hire me</h2>
+          <div class="contact-info"></div>
+          <div class="contact-form"></div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
