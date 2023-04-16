@@ -2,14 +2,6 @@
   box-sizing: border-box;
 }
 
-html::before {
-  z-index: -1;
-  width: 100dvw;
-  height: 100dvh;
-  background-color: var(--secondary);
-  content: "";
-}
-
 html {
   background-color: var(--primary);
 }
