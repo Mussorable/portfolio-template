@@ -23,12 +23,20 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+h3 {
+  margin: 0;
+}
+
 :root {
   --secondary: #f7de3a;
   --down-arrow: black;
   --primary: #2e4053;
   --light: #f4f6f7;
   --tag: var(--primary);
+}
+
+address {
+  font-style: normal;
 }
 
 @media (prefers-reduced-motion: no-preference) {
