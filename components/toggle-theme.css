@@ -1,0 +1,30 @@
+.toggle-theme-mark {
+  content: "";
+  width: 50px;
+  height: 90px;
+  background-image: url("resources/mark.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  position: absolute;
+  background-size: 50px;
+  top: 0;
+  right: 2dvw;
+  translate: 0 -50px;
+  transition: translate 0.5s;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.toggle-theme-mark:hover {
+  translate: 0 0;
+}
+
+@media (max-width: 37.5rem) {
+  .toggle-theme-mark {
+    left: calc(50vw - 60px / 2);
+  }
+}

@@ -1,0 +1,75 @@
+.button {
+  all: unset;
+  padding: 0;
+  opacity: 0.7;
+  background-image: none;
+  display: inline-block;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+li.button--raise > a.button {
+  color: black;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.button:active {
+  translate: 1px 1px;
+}
+
+#scroll-down {
+  position: absolute;
+  bottom: 25px;
+  left: calc(50vw - 48px / 2);
+  animation: bounce 1.6s infinite cubic-bezier(0.37, 0, 0.63, 1);
+  transition: 0.5s;
+}
+
+#scroll-down:hover {
+  --down-arrow: var(--secondary);
+}
+
+@keyframes bounce {
+  0% {
+    translate: 0 0px;
+  }
+
+  50% {
+    translate: 0 -15px;
+  }
+
+  100% {
+    translate: 0 0px;
+  }
+}
+
+.button--raise {
+  background-color: var(--secondary);
+  color: black;
+  padding-left: 30px;
+  background-image: url("resources/right-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 10px;
+  opacity: 0.9;
+}
+
+.submit-button {
+  padding-block: 15px;
+  padding-right: 10px;
+  padding-left: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.button--raise:hover {
+  opacity: 1;
+}
+
+.link {
+  /* color: var(--secondary); */
+  text-decoration: underline;
+}
