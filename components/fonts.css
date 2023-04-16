@@ -30,3 +30,16 @@
 .uppercase {
   text-transform: uppercase;
 }
+
+.text-start {
+  text-align: start;
+}
+
+.normal-weight {
+  font-weight: normal;
+}
+
+.email {
+  text-decoration: none;
+  color: inherit;
+}

@@ -11,7 +11,14 @@
 .vertical-flex {
   display: flex;
   flex-direction: column;
+}
+
+.gap-30 {
   gap: 30px;
+}
+
+.gap-15 {
+  gap: 15px;
 }
 
 .layout-section {
@@ -54,4 +61,14 @@
   outline-color: var(--secondary);
   color: var(--tag);
   background-color: var(--primary);
+}
+
+.flex-address {
+  margin-bottom: 40px;
+  display: flex;
+  gap: 16px;
+}
+
+.margin-top {
+  margin-top: 10px;
 }
