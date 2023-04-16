@@ -72,3 +72,32 @@
 .margin-top {
   margin-top: 10px;
 }
+
+.footer-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-left-side,
+.footer-right-side {
+  display: flex;
+  align-items: center;
+}
+
+.footer-left-side {
+  gap: 15px;
+}
+
+.footer-left-side > div {
+  text-align: center;
+}
+
+.footer-left-side p {
+  margin: 5px;
+}
+
+.footer-right-side {
+  gap: 30px;
+}
