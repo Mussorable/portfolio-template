@@ -2,7 +2,7 @@
   content: "";
   width: 50px;
   height: 90px;
-  background-image: url("resources/mark.svg");
+  background-image: url("../resources/mark.svg");
   background-color: transparent;
   background-repeat: no-repeat;
   background-position-y: bottom;

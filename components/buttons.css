@@ -50,7 +50,7 @@ li.button--raise > a.button {
   background-color: var(--secondary);
   color: black;
   padding-left: 30px;
-  background-image: url("resources/right-arrow.svg");
+  background-image: url("../resources/right-arrow.svg");
   background-repeat: no-repeat;
   background-position: 10px;
   opacity: 0.9;
